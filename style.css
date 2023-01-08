@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;300&family=Dancing+Script&display=swap');
+body{
+font-family: 'Advent Pro',sans-serif;
+padding: 0;
+margin: 0; 
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+li{
+   list-style: none;
+}
+h2{
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 2em;
+}
+a{
+	text-decoration: none;
+	color: black;
+
+}
+/* ****************** NAVBAR ************** */
+ nav {
+	overflow: hidden; 
+	background-color: #FFFAE1 ;
+	position: fixed;
+	width: 100%;
+	opacity: 1.5;
+	
+}
+header li{
+	float: right;
+	font-size: 1.2em;
+}
+header li a{
+	text-decoration: none;
+	display: black;
+	text-align: center;
+	padding: 18px 16px;
+}
+#logo{
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	float: left;
+}
+/* ***************** Image Principale ************* */
+#imagePrincipale{
+	padding-top: 60px;
+	background: url("books1.JPG") no-repeat fixed 50% 50%;
+	background-size: cover;
+	height: 799px;
+}
+h1{
+	font-family: 'Dancing Script',cursive;
+	text-align: center;
+	color: white;
+	font-size: 6em;
+	margin-top: 130px; 
+	text-shadow: 10px 13px 8px black;
+
+}
+#premierTrait{
+	height: 1px;
+	width: 90%;
+	margin: -3px auto;
+	background-color: white;
+	box-shadow: 10px 13px 8px black;
+	
+}
+h3{
+	text-align: center;
+	color: antiquewhite;
+	font-size: 3em;
+	text-shadow: 10px 13px 8px black;
+}
+/* ********************* PRESENTATION ************************ */
+#presentation{
+	background-color: black;
+	padding: 10px 0px 100px 0;
+}
+#prestation{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px 10%;
+}
+.imagesPresentations h4{
+	font-family: 'Dancing Script' , cursive;
+	text-align: center;
+	font-size: 1.8em;
+	margin: 15px;
+	font-weight: 300;
+}
+.imagesPresentations  img{
+	border-radius: 10px;
+	box-shadow: 5px 5px 3px 1px rgba(0,0,0,0,7);
+}
+.imagesPresentations img:hover{
+	opacity: 0.5;
+	transform: scale(1.05);
+	transition: 0.6s ease-in-out;
+}
+#resume{
+	height: 1000px;
+	background-color: beige;
+	padding: 1px 2%;
+	color: black;
+}
+#resume1 h2{
+	padding-top: 60px;
+	color: black;
+}
+/* ****************** Footer ************/
+footer{
+	background-color: gray;
+	color:black;
+	padding: 10px 0 30px 0;
+	text-align:center;
+	height: 800px
+}
+
+
+a{
+	color: red;
+}
+li{
+	color: brown;
+}
